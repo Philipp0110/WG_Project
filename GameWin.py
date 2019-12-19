@@ -1,2 +1,0 @@
-class GameWin():
-  pass
