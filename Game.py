@@ -6,7 +6,9 @@ import Pipe
 import WinGame
 
 alive = True
+
 while alive:
+  pg.init
   win = WinGame.GameWin()
   win.drawWin()
   for event in pg.event.get():
